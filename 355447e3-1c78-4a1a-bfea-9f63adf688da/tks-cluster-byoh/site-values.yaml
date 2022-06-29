@@ -9,7 +9,7 @@ global:
 charts:
 - name: cluster-api-byoh
   override:
-    cluster.name: "$(clusterName)"
+    cluster.name: "\"$(clusterName)\""
     byoCluster:
       controlPlaneEndpoint:
         host: 10.0.102.38
