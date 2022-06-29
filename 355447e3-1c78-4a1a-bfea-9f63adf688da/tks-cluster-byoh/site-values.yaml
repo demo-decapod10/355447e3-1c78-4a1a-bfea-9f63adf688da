@@ -5,7 +5,7 @@ metadata:
 
 global:
   # These values are replaced on cluster creation by workflow
-  clusterName: 355447e3
+  clusterName: "355447e3"
 charts:
 - name: cluster-api-byoh
   override:
